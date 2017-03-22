@@ -1,0 +1,68 @@
+{
+    "LOCAL": {
+        "port": 4000,
+        "debug": true,
+        "http": {
+            "timeout": 15000
+        },
+        "token": {
+            "key": "@cnJak@rta"
+        },
+        "storage": "Storage\\",
+        "db": {
+            "dialect": "postgres",
+            "host": "localhost",
+            "schema": "public",
+            "username": "postgres",
+            "password": "admin",
+            "name": "tsel",
+            "port": 5432,
+            "timezone": "+07:00",
+            "pool": {
+                "min": 0,
+                "max": 1000,
+                "idle": 10000
+            },
+            "dialectOptions": {
+                "ssl": false
+            }
+        },
+        "upload": {
+            "bucket": "tsel-deliverables-data",
+            "path": ""
+        }
+    },
+    "production": {
+        "port": 2013,
+        "debug": true,
+        "http": {
+            "timeout": 15000
+        },
+        "token": {
+            "key": "@cnJak@rta"
+        },
+        "storage": "./Storage/",
+        "db": {
+            "dialect": "postgres",
+            "host": "ec2-54-235-247-224.compute-1.amazonaws.com",
+            "schema": "public",
+            "username": "fpeyygwqqmjndw",
+            "password": "210f9600ccf64ed1df290d09f7d891e8ccdad15daf5aa0748be8b7c711cf6903",
+            "name": "d1tg2dulkngmk4",
+            "port": 5432,
+            "timezone": "+07:00",
+            "pool": {
+                "min": 0,
+                "max": 5,
+                "idle": 10000
+            },
+            "dialectOptions": {
+                "ssl": false
+            }
+        },
+        "upload": {
+            "bucket": "tsel-deliverables-data",
+            "path": ""
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "sourceMap": true,
+        "declaration": false,
+        "experimentalDecorators": true,
+        "noImplicitAny": true,
+        "watch": false
+    },
+    "exclude": [
+    "node_modules",
+    "typings"
+  ]
+}
+

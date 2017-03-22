@@ -1,0 +1,8 @@
+{
+    "_700": "General error (HTTP request timeout)",
+    "_701": "General error (HTTP response not OK/200)",
+    "_703": "General error (disconnected from redis)",
+    "704" : "Cannot access storage directory",
+
+    "103" : "Invalid password"
+}
